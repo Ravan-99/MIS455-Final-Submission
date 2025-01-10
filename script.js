@@ -138,7 +138,7 @@ showAllBtn.addEventListener("click", () => {
 
 // Initial load of random meals for the slider
 (async function loadFeaturedMeals() {
-  featuredMeals = await fetchRandomMeals(20); // Fetch 20 random meals
+  featuredMeals = await fetchRandomMeals(15); // Fetch 15 random meals
   displayFeaturedMeals(featuredMeals);
   updateSliderPosition(); // Initialize slider position
 })();

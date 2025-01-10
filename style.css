@@ -151,7 +151,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #333;
+    background-color: #333333bc;
     color: white;
     border: none;
     border-radius: 50%;
@@ -163,7 +163,7 @@
   }
   
   .carousel-btn:hover {
-    background-color: #feb47b;
+    background-color: #ff700374;
   }
   
   #prev-btn {
